@@ -5,7 +5,7 @@ All notable changes to `@arraypress/shaders` are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.0] — Unreleased
+## [0.1.0] — 2026-11-05
 
 ### Added
 
@@ -18,7 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **The shader head is put together from `src/glsl/`** (uniforms, palette, space, noise, shapes, studio, finish). `soft()` (three-octave noise) and `sdRoundRect()` moved into it from the scenes that each had their own copy.
 - **The README is cut to the essentials**; the detail lives in each module's docblock.
 
-## [0.1.0] — 2026-11-04
 
 ### Added
 
