@@ -1,0 +1,158 @@
+{
+  "name": "@arraypress/shaders",
+  "version": "0.1.0",
+  "description": "WebGL 2 scene shaders: eighteen full-frame backgrounds (liquid marble, frosted glass, glossy tiles, chrome, glitter, holographic foil, ink in water and more), each recoloured by a palette and shaped by a few named settings. Lazy WebGL contexts, an fps cap, adaptive resolution, reduced motion, and PNG stills off screen. Framework-free, no dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    },
+    "./core": {
+      "types": "./src/core.d.ts",
+      "import": "./src/core.js",
+      "default": "./src/core.js"
+    },
+    "./load": {
+      "types": "./src/load.d.ts",
+      "import": "./src/load.js",
+      "default": "./src/load.js"
+    },
+    "./marble": {
+      "types": "./src/scenes/marble.d.ts",
+      "import": "./src/scenes/marble.js",
+      "default": "./src/scenes/marble.js"
+    },
+    "./frosted": {
+      "types": "./src/scenes/frosted.d.ts",
+      "import": "./src/scenes/frosted.js",
+      "default": "./src/scenes/frosted.js"
+    },
+    "./ribs": {
+      "types": "./src/scenes/ribs.d.ts",
+      "import": "./src/scenes/ribs.js",
+      "default": "./src/scenes/ribs.js"
+    },
+    "./tiles": {
+      "types": "./src/scenes/tiles.d.ts",
+      "import": "./src/scenes/tiles.js",
+      "default": "./src/scenes/tiles.js"
+    },
+    "./blob": {
+      "types": "./src/scenes/blob.d.ts",
+      "import": "./src/scenes/blob.js",
+      "default": "./src/scenes/blob.js"
+    },
+    "./chrome": {
+      "types": "./src/scenes/chrome.d.ts",
+      "import": "./src/scenes/chrome.js",
+      "default": "./src/scenes/chrome.js"
+    },
+    "./glitter": {
+      "types": "./src/scenes/glitter.d.ts",
+      "import": "./src/scenes/glitter.js",
+      "default": "./src/scenes/glitter.js"
+    },
+    "./foil": {
+      "types": "./src/scenes/foil.d.ts",
+      "import": "./src/scenes/foil.js",
+      "default": "./src/scenes/foil.js"
+    },
+    "./ribbon": {
+      "types": "./src/scenes/ribbon.d.ts",
+      "import": "./src/scenes/ribbon.js",
+      "default": "./src/scenes/ribbon.js"
+    },
+    "./spiral": {
+      "types": "./src/scenes/spiral.d.ts",
+      "import": "./src/scenes/spiral.js",
+      "default": "./src/scenes/spiral.js"
+    },
+    "./swirl": {
+      "types": "./src/scenes/swirl.d.ts",
+      "import": "./src/scenes/swirl.js",
+      "default": "./src/scenes/swirl.js"
+    },
+    "./arches": {
+      "types": "./src/scenes/arches.d.ts",
+      "import": "./src/scenes/arches.js",
+      "default": "./src/scenes/arches.js"
+    },
+    "./spheres": {
+      "types": "./src/scenes/spheres.d.ts",
+      "import": "./src/scenes/spheres.js",
+      "default": "./src/scenes/spheres.js"
+    },
+    "./spheres2": {
+      "types": "./src/scenes/spheres2.d.ts",
+      "import": "./src/scenes/spheres2.js",
+      "default": "./src/scenes/spheres2.js"
+    },
+    "./strands": {
+      "types": "./src/scenes/strands.d.ts",
+      "import": "./src/scenes/strands.js",
+      "default": "./src/scenes/strands.js"
+    },
+    "./rings": {
+      "types": "./src/scenes/rings.d.ts",
+      "import": "./src/scenes/rings.js",
+      "default": "./src/scenes/rings.js"
+    },
+    "./ink-water": {
+      "types": "./src/scenes/ink-water.d.ts",
+      "import": "./src/scenes/ink-water.js",
+      "default": "./src/scenes/ink-water.js"
+    },
+    "./topo": {
+      "types": "./src/scenes/topo.d.ts",
+      "import": "./src/scenes/topo.js",
+      "default": "./src/scenes/topo.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "typecheck": "tsc --noEmit",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "keywords": [
+    "webgl",
+    "webgl2",
+    "shader",
+    "glsl",
+    "background",
+    "hero",
+    "gradient",
+    "glass",
+    "marble",
+    "generative",
+    "framework-agnostic"
+  ],
+  "author": "David Sherlock",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arraypress/shaders.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@shaderfrog/glsl-parser": "^7.0.1",
+    "typescript": "^6.0.3"
+  }
+}
