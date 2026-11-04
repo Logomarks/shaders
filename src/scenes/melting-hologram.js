@@ -25,7 +25,6 @@ export const meltingHologram = define({
 		{ key: 'bubbles', label: 'Bubbles', min: 0, max: 6, step: 1, default: 3 },
 	],
 	fragment: `${HEAD}
-float soft(vec2 p) { float a = 0.5, s = 0.0; for (int i = 0; i < 3; i++) { s += a * noise(p); p = rot(0.6) * p * 2.02; a *= 0.5; } return s / 0.875; }
 // the liquid's height: a smooth flowing field (sine flow, no noise grain), cut at a level so it pools in melted
 // bodies with black between; steep at its edges, with soft folds across its top
 float height(vec2 p, float t) {

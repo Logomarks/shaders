@@ -26,7 +26,6 @@ export const oilBubbles = define({
 		{ key: 'refraction', label: 'Refraction', min: 0, max: 1.5, step: 0.01, default: 0.7 },
 	],
 	fragment: `${HEAD}
-float soft(vec2 p) { float a = 0.5, s = 0.0; for (int i = 0; i < 3; i++) { s += a * noise(p); p = rot(0.6) * p * 2.02; a *= 0.5; } return s / 0.875; }
 // the marbled ink: the colours laid in bands, then pulled twice through a slow smooth flow, so they curl into long
 // swirls (like oil paint on water) with fine streaks running along them
 vec3 marbling(vec2 p, float t, vec3 G, vec3 I1, vec3 I2) {

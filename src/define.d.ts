@@ -1,4 +1,4 @@
-import type { SceneDefinition } from './core.js';
+import type { SceneDefinition } from './types.js';
 
 /** The most settings a scene may have: 6. */
 export const MAX_PARAMS: number;

@@ -26,10 +26,9 @@ export const tiles = define({
 		{ key: 'turn', label: 'Turn', min: 0, max: 45, step: 1, default: 45 },
 	],
 	fragment: `${HEAD}
-float sdRect(vec2 p, vec2 b, float r) { vec2 q = abs(p) - b + r; return length(max(q, 0.0)) + min(max(q.x, q.y), 0.0) - r; }
 // a rounded tile, extruded with a soft bevel
 float tile(vec3 p) {
-	float d2 = sdRect(p.xz, vec2(uP[0]), uP[2] * uP[0]);
+	float d2 = sdRoundRect(p.xz, vec2(uP[0]), uP[2] * uP[0]);
 	vec2 w = vec2(d2, abs(p.y) - 0.18);
 	return min(max(w.x, w.y), 0.0) + length(max(w + uP[3], 0.0)) - uP[3];
 }

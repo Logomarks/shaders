@@ -12,6 +12,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **`oil-bubbles`**: clear glassy bubbles of many sizes on marbled ink (oil on water, macro). The ink is two colours pulled into swirls with fine streaks along them; the bubbles refract it, reflect a room (a window, a strip light, the light off the water) by Fresnel, and drift, touch, neck and merge, with a wall where two meet and tiny satellite bubbles round their rims. Settings: `count`, `size`, `flow`, `scale`, `ground` (0 a pale ground, 1 a dark one) and `refraction`. Colours: the two inks, the ground, and the light.
 - **`melting-hologram`**: an iridescent liquid on black. Thin-film colour (the three colours looped into a spectrum) slides across smooth melted folds that reflect a dark studio, so the colour comes in bands with black between and the edges run white where they turn away; a few glass bubbles rise through it, bending the liquid behind them. Settings: `scale`, `flow`, `iridescence`, `sharpness` and `bubbles`.
 
+### Changed
+
+- **The engine is split into small modules** in `src/runtime/` (look, colour, options, uniforms, GL, device, frame loop, pointer, lazy context, scene, renderer, snapshot, fallback), each with its own `.d.ts`; `src/core.js` gathers them. The shared types are in `src/types.d.ts`. The API, the subpath exports and every scene's pixels are unchanged.
+- **The shader head is put together from `src/glsl/`** (uniforms, palette, space, noise, shapes, studio, finish). `soft()` (three-octave noise) and `sdRoundRect()` moved into it from the scenes that each had their own copy.
+- **The README is cut to the essentials**; the detail lives in each module's docblock.
+
 ## [0.1.0] — 2026-11-04
 
 ### Added

@@ -25,13 +25,12 @@ export const arches = define({
 		{ key: 'rim', label: 'Rim', min: 0, max: 2.5, step: 0.05, default: 1 },
 	],
 	fragment: `${HEAD}
-float sdBox(vec2 p, vec2 b, float r) { vec2 q = abs(p) - b + r; return length(max(q, 0.0)) + min(max(q.x, q.y), 0.0) - r; }
 void main() {
 	vec2 uv = sceneUv();
 	float t = uTime * 0.15;
 	// tall arches: rounded boxes standing on the bottom right, their sides running up out of the frame
 	vec2 c = vec2(0.3, -0.62);
-	float d = max(sdBox(uv - c + vec2(0.0, 0.9), vec2(uP[2], 1.0), uP[3] * uP[2]), 0.0);   // wide tops with rounded corners, sides running down
+	float d = max(sdRoundRect(uv - c + vec2(0.0, 0.9), vec2(uP[2], 1.0), uP[3] * uP[2]), 0.0);   // wide tops with rounded corners, sides running down
 	// the steps widen as they go out, and breathe
 	float s = pow(d * 3.0, uP[1]) * (uP[0] + 0.12 * sin(t * 1.3));
 	float n = floor(s), f = fract(s);
