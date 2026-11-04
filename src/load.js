@@ -27,6 +27,8 @@ const LOADERS = {
 	rings: () => import('./scenes/rings.js'),
 	'ink-water': () => import('./scenes/ink-water.js'),
 	topo: () => import('./scenes/topo.js'),
+	'oil-bubbles': () => import('./scenes/oil-bubbles.js'),
+	'melting-hologram': () => import('./scenes/melting-hologram.js'),
 };
 
 /** Every scene's name, in the order the index lists them. */

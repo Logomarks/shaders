@@ -1,6 +1,6 @@
 # @arraypress/shaders
 
-WebGL 2 scene shaders: eighteen full-frame backgrounds (liquid marble, frosted glass, glossy tiles, chrome, glitter, holographic foil, ink in water and more). Each one is a single fragment shader that takes its colours from a palette (three colours and a glint) and its shape from a few named settings, so one scene can be made into many looks.
+WebGL 2 scene shaders: twenty full-frame backgrounds (liquid marble, frosted glass, glossy tiles, chrome, glitter, holographic foil, ink in water, oil bubbles, a melting hologram and more). Each one is a single fragment shader that takes its colours from a palette (three colours and a glint) and its shape from a few named settings, so one scene can be made into many looks.
 
 It's plain JavaScript with no dependencies and no framework, so it runs in a plain HTML page, Astro, React, Svelte or Vue. Running scenes are cheap by default: a WebGL context is held only while the scene is near the screen, frames are capped at 30 a second, resolution adapts to the device, and reduced motion is respected. It can also render stills off screen as PNGs, for covers and mockups.
 
@@ -43,6 +43,8 @@ npm install @arraypress/shaders
 | `rings` | Glass rings: concentric glass arcs rippling outward, warm on one side and cold on the other | `rings`, `wobble`, `glints`, `brush` |
 | `ink-water` | Ink in water: ink clouds blooming and curling through a pale tank | `amount`, `curl`, `scale`, `softness` |
 | `topo` | Topographic: contour lines of slowly shifting ground | `lines`, `every`, `scale`, `detail` |
+| `oil-bubbles` | Oil bubbles: clear glassy bubbles of many sizes on marbled ink, bending the swirls through them; they drift, touch, merge and part. On a pale ground or (with `ground` at 1) a dark one | `count`, `size`, `flow`, `scale`, `ground`, `refraction` |
+| `melting-hologram` | Melting hologram: an iridescent liquid flowing and folding over black, thin-film colour sliding across its melted folds, with now and then a glassy bubble | `scale`, `flow`, `iridescence`, `sharpness`, `bubbles` |
 
 Each scene starts with its own colours. What each colour does in a scene (for example, "c1 the hot panel, c2 the deep panel…") is written at the top of its module, `src/scenes/<name>.js`.
 
@@ -168,7 +170,7 @@ A running scene costs only what it needs to:
 
 ## Shipping only the scenes you use
 
-The index (`@arraypress/shaders`) includes all eighteen shaders. To ship fewer, import each scene from its own module and run it with the core, which contains no shaders:
+The index (`@arraypress/shaders`) includes all twenty shaders. To ship fewer, import each scene from its own module and run it with the core, which contains no shaders:
 
 ```js
 import { scene, snapshot } from '@arraypress/shaders/core';

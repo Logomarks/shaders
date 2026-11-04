@@ -1,8 +1,9 @@
 /**
  * @arraypress/shaders
  *
- * WebGL 2 scene shaders: eighteen full-frame backgrounds (liquid marble,
- * frosted glass, glossy tiles, chrome, glitter, foil, ink in water…), each
+ * WebGL 2 scene shaders: twenty full-frame backgrounds (liquid marble,
+ * frosted glass, glossy tiles, chrome, glitter, foil, ink in water, oil
+ * bubbles, a melting hologram…), each
  * one fragment shader taking its colours from a palette (three colours and
  * a glint) and its shape from a few named settings. Framework-free, with no
  * dependencies.
@@ -34,15 +35,17 @@ import { strands } from './scenes/strands.js';
 import { rings } from './scenes/rings.js';
 import { inkWater } from './scenes/ink-water.js';
 import { topo } from './scenes/topo.js';
+import { oilBubbles } from './scenes/oil-bubbles.js';
+import { meltingHologram } from './scenes/melting-hologram.js';
 
-export { marble, frosted, ribs, tiles, blob, chrome, glitter, foil, ribbon, spiral, swirl, arches, spheres, spheres2, strands, rings, inkWater, topo };
+export { marble, frosted, ribs, tiles, blob, chrome, glitter, foil, ribbon, spiral, swirl, arches, spheres, spheres2, strands, rings, inkWater, topo, oilBubbles, meltingHologram };
 export { LOOK, LOOK_PARAMS, STILL_TIME, MAX_PARAMS, HEAD, define, rgb, weakDevice, compile } from './core.js';
 export { load, NAMES } from './load.js';
 
 /** @typedef {import('./core.js').SceneDefinition} SceneDefinition */
 
 /** Every scene, in order. */
-const ALL = [marble, frosted, ribs, tiles, blob, chrome, glitter, foil, ribbon, spiral, swirl, arches, spheres, spheres2, strands, rings, inkWater, topo];
+const ALL = [marble, frosted, ribs, tiles, blob, chrome, glitter, foil, ribbon, spiral, swirl, arches, spheres, spheres2, strands, rings, inkWater, topo, oilBubbles, meltingHologram];
 const BY_NAME = new Map(ALL.map((d) => [d.name, d]));
 
 /** Every scene's name, title and description, by name. */

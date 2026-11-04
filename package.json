@@ -1,7 +1,7 @@
 {
   "name": "@arraypress/shaders",
   "version": "0.1.0",
-  "description": "WebGL 2 scene shaders: eighteen full-frame backgrounds (liquid marble, frosted glass, glossy tiles, chrome, glitter, holographic foil, ink in water and more), each recoloured by a palette and shaped by a few named settings. Lazy WebGL contexts, an fps cap, adaptive resolution, reduced motion, and PNG stills off screen. Framework-free, no dependencies.",
+  "description": "WebGL 2 scene shaders: twenty full-frame backgrounds (liquid marble, frosted glass, glossy tiles, chrome, glitter, holographic foil, ink in water, oil bubbles, a melting hologram and more), each recoloured by a palette and shaped by a few named settings. Lazy WebGL contexts, an fps cap, adaptive resolution, reduced motion, and PNG stills off screen. Framework-free, no dependencies.",
   "type": "module",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -112,6 +112,16 @@
       "import": "./src/scenes/topo.js",
       "default": "./src/scenes/topo.js"
     },
+    "./oil-bubbles": {
+      "types": "./src/scenes/oil-bubbles.d.ts",
+      "import": "./src/scenes/oil-bubbles.js",
+      "default": "./src/scenes/oil-bubbles.js"
+    },
+    "./melting-hologram": {
+      "types": "./src/scenes/melting-hologram.d.ts",
+      "import": "./src/scenes/melting-hologram.js",
+      "default": "./src/scenes/melting-hologram.js"
+    },
     "./package.json": "./package.json"
   },
   "files": [
@@ -135,6 +145,7 @@
     "gradient",
     "glass",
     "marble",
+    "iridescent",
     "generative",
     "framework-agnostic"
   ],

@@ -11,12 +11,12 @@ import * as shaders from '../src/index.js';
 import { load, NAMES } from '../src/load.js';
 import { MAX_PARAMS, HEX } from '../src/define.js';
 
-const ORDER = ['marble', 'frosted', 'ribs', 'tiles', 'blob', 'chrome', 'glitter', 'foil', 'ribbon', 'spiral', 'swirl', 'arches', 'spheres', 'spheres2', 'strands', 'rings', 'ink-water', 'topo'];
+const ORDER = ['marble', 'frosted', 'ribs', 'tiles', 'blob', 'chrome', 'glitter', 'foil', 'ribbon', 'spiral', 'swirl', 'arches', 'spheres', 'spheres2', 'strands', 'rings', 'ink-water', 'topo', 'oil-bubbles', 'melting-hologram'];
 const camel = (/** @type {string} */ s) => s.replace(/-(\w)/g, (_, c) => c.toUpperCase());
 const pkg = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
 
 describe('the registry', () => {
-	it('lists eighteen scenes, in order, each with a title and a description', () => {
+	it('lists twenty scenes, in order, each with a title and a description', () => {
 		assert.deepEqual(Object.keys(shaders.SCENES), ORDER);
 		for (const [name, s] of Object.entries(shaders.SCENES)) {
 			assert.equal(s.name, name);

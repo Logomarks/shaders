@@ -27,6 +27,8 @@ export { strands } from './scenes/strands.js';
 export { rings } from './scenes/rings.js';
 export { inkWater } from './scenes/ink-water.js';
 export { topo } from './scenes/topo.js';
+export { oilBubbles } from './scenes/oil-bubbles.js';
+export { meltingHologram } from './scenes/melting-hologram.js';
 
 /** A scene's name. */
 export type SceneName =
@@ -47,7 +49,9 @@ export type SceneName =
 	| 'strands'
 	| 'rings'
 	| 'ink-water'
-	| 'topo';
+	| 'topo'
+	| 'oil-bubbles'
+	| 'melting-hologram';
 
 /** A scene, by name or definition. */
 export type SceneRef = SceneName | SceneDefinition;
