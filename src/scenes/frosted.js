@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/frosted
+ * @module @logomarks/shaders/frosted
  *
  * Frosted glass: fluted glass bending soft orbs of colour that drift behind it, colour splitting at each flute's edge.
  *

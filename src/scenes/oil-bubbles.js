@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/oil-bubbles
+ * @module @logomarks/shaders/oil-bubbles
  *
  * Oil bubbles: clear glassy bubbles of many sizes on marbled ink, bending the swirls through them; they drift, touch, merge and part.
  *

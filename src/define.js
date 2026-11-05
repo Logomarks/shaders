@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/define
+ * @module @logomarks/shaders/define
  *
  * Makes a scene definition: checks it and freezes it, so a scene module is
  * only data (its name, its look, its settings and its fragment shader) and
@@ -7,7 +7,7 @@
  *
  * A scene of your own runs like any built-in one:
  *
- *     import { define, HEAD, scene } from '@arraypress/shaders/core';
+ *     import { define, HEAD, scene } from '@logomarks/shaders/core';
  *     const plain = define({
  *       name: 'plain', title: 'Plain', description: 'The first colour, breathing.',
  *       scale: 0.5, ground: '#000000',

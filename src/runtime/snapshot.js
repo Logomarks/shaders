@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/snapshot
+ * @module @logomarks/shaders/runtime/snapshot
  *
  * One still of a scene at an exact size, as an image: for covers, mockups
  * and anything that wants the scene as a picture. 1200×1200 PNG, 4 s in,

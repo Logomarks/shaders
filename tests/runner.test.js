@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders — the runner's lifecycle, in a pretend browser
+ * @logomarks/shaders — the runner's lifecycle, in a pretend browser
  * (tests/fake-browser.js): the lazy context (made near the screen, given
  * back four seconds after leaving it, a fresh canvas each time), the frame
  * cap, reduced motion, pausing when hidden, frame(t), set(), stop(), and the

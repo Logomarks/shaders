@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders — the scene registry: every scene is listed, defined
+ * @logomarks/shaders — the scene registry: every scene is listed, defined
  * well, importable on its own and by name, and declared in the types and
  * the package's exports.
  */
@@ -95,7 +95,7 @@ describe('the package', () => {
 		for (const key of ['.', './core', './load']) assert.ok(pkg.exports[key]?.import && pkg.exports[key]?.types, key);
 		assert.equal(pkg.sideEffects, false);
 		assert.equal(pkg.dependencies, undefined);
-		assert.equal(pkg.version, '0.1.0');
+		assert.equal(pkg.version, '0.1.1');
 		assert.equal(pkg.license, 'MIT');
 	});
 

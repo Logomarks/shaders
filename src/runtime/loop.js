@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/loop
+ * @module @logomarks/shaders/runtime/loop
  *
  * A running scene's frame loop: it draws at `fps` (30 by default: these
  * move slowly), not at the screen's 60 or 120, and when frames come much

@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/scene
+ * @module @logomarks/shaders/runtime/scene
  *
  * Runs a scene on a page, as cheaply as it can look right:
  *

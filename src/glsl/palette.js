@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glsl/palette
+ * @module @logomarks/shaders/glsl/palette
  *
  * GLSL that brings a palette colour to the part it plays in a scene,
  * whatever its shade, so any palette reads in any scene: `luma`,

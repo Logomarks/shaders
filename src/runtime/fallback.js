@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/fallback
+ * @module @logomarks/shaders/runtime/fallback
  *
  * A still CSS background for a scene: its three colours as soft blooms
  * over its ground. Put it behind the canvas, so something shows before

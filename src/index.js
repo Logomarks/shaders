@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders
+ * @logomarks/shaders
  *
  * WebGL 2 scene shaders: twenty full-frame backgrounds (liquid marble,
  * frosted glass, glossy tiles, chrome, glitter, foil, ink in water, oil
@@ -10,10 +10,10 @@
  *
  * This entry takes in every scene, and its functions take a scene by name.
  * To ship only the scenes a page uses, import them one by one
- * (`@arraypress/shaders/marble`) and run them with `@arraypress/shaders/core`,
- * or load them by name with `@arraypress/shaders/load`.
+ * (`@logomarks/shaders/marble`) and run them with `@logomarks/shaders/core`,
+ * or load them by name with `@logomarks/shaders/load`.
  *
- * @module @arraypress/shaders
+ * @module @logomarks/shaders
  */
 
 import * as core from './core.js';
@@ -69,7 +69,7 @@ export function definition(name) {
 }
 
 /**
- * Runs a scene on a canvas, or in an element. See `scene` in `@arraypress/shaders/core`.
+ * Runs a scene on a canvas, or in an element. See `scene` in `@logomarks/shaders/core`.
  *
  * @param {Element} target A `<canvas>`, or an element to draw in.
  * @param {string | SceneDefinition} name The scene.
@@ -79,7 +79,7 @@ export function definition(name) {
 export const scene = (target, name, options) => core.scene(target, definition(name), options);
 
 /**
- * Renders one still of a scene as an image. See `snapshot` in `@arraypress/shaders/core`.
+ * Renders one still of a scene as an image. See `snapshot` in `@logomarks/shaders/core`.
  *
  * @param {string | SceneDefinition} name The scene.
  * @param {import('./core.js').SceneOptions} [options] Its options.
@@ -89,7 +89,7 @@ export const scene = (target, name, options) => core.scene(target, definition(na
 export const snapshot = (name, options, output) => core.snapshot(definition(name), options, output);
 
 /**
- * A renderer for stills and frame sequences at an exact size. See `renderer` in `@arraypress/shaders/core`.
+ * A renderer for stills and frame sequences at an exact size. See `renderer` in `@logomarks/shaders/core`.
  *
  * @param {string | SceneDefinition} name The scene.
  * @param {import('./core.js').SceneOptions} options Its options.
@@ -99,7 +99,7 @@ export const snapshot = (name, options, output) => core.snapshot(definition(name
 export const renderer = (name, options, size) => core.renderer(definition(name), options, size);
 
 /**
- * A scene's settings from its options. See `resolveSettings` in `@arraypress/shaders/core`.
+ * A scene's settings from its options. See `resolveSettings` in `@logomarks/shaders/core`.
  *
  * @param {string | SceneDefinition} name The scene.
  * @param {import('./core.js').SceneOptions} [options] Its options.
@@ -109,7 +109,7 @@ export const renderer = (name, options, size) => core.renderer(definition(name),
 export const resolveSettings = (name, options, current) => core.resolveSettings(definition(name), options, current);
 
 /**
- * Checks a scene's options. See `validateOptions` in `@arraypress/shaders/core`.
+ * Checks a scene's options. See `validateOptions` in `@logomarks/shaders/core`.
  *
  * @param {string | SceneDefinition} name The scene.
  * @param {import('./core.js').SceneOptions} [options] Its options.
@@ -117,7 +117,7 @@ export const resolveSettings = (name, options, current) => core.resolveSettings(
 export const validateOptions = (name, options) => core.validateOptions(definition(name), options);
 
 /**
- * The uniform values for a scene's settings. See `uniformValues` in `@arraypress/shaders/core`.
+ * The uniform values for a scene's settings. See `uniformValues` in `@logomarks/shaders/core`.
  *
  * @param {string | SceneDefinition} name The scene.
  * @param {import('./core.js').SceneSettings} settings Its settings.
@@ -126,7 +126,7 @@ export const validateOptions = (name, options) => core.validateOptions(definitio
 export const uniformValues = (name, settings) => core.uniformValues(definition(name), settings);
 
 /**
- * A still CSS background for a scene. See `fallback` in `@arraypress/shaders/core`.
+ * A still CSS background for a scene. See `fallback` in `@logomarks/shaders/core`.
  *
  * @param {string | SceneDefinition} name The scene.
  * @param {import('./core.js').SceneOptions} [options] Its options.

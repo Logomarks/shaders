@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glsl/shapes
+ * @module @logomarks/shaders/glsl/shapes
  *
  * GLSL distance functions for flat shapes: `sdRoundRect`, a rectangle
  * with rounded corners.

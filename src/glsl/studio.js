@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glsl/studio
+ * @module @logomarks/shaders/glsl/studio
  *
  * GLSL for a photo studio for glass to reflect, `glassRoom(r)`: a dark
  * room, a tall softbox at the left and a strip light at the right, lit in

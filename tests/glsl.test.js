@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders — every scene's fragment shader parses as GLSL ES
+ * @logomarks/shaders — every scene's fragment shader parses as GLSL ES
  * 3.00 (with @shaderfrog/glsl-parser: syntax, and every function and
  * variable declared before use), with no GPU. The browser check
  * (scripts/browser-check.mjs) compiles and draws them for real.

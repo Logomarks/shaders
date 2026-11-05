@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/foil
+ * @module @logomarks/shaders/foil
  *
  * Holographic foil: rainbow foil with fine diffraction lines and winking glitter that shift as the pointer tilts it.
  *

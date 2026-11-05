@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/blob
+ * @module @logomarks/shaders/blob
  *
  * Pastel blob: a soft iridescent glass blob on a pale ground, budding and merging as it morphs.
  *

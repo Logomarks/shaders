@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glsl/noise
+ * @module @logomarks/shaders/glsl/noise
  *
  * GLSL noise: `hash` (a pseudo-random number per point), `noise` (smooth
  * value noise), `fbm` (five octaves of it) and `soft` (three octaves,

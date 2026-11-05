@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders — the types every module shares: a scene's
+ * @logomarks/shaders — the types every module shares: a scene's
  * definition, its options and settings, a running scene's handle, and a
  * renderer.
  */
@@ -54,7 +54,7 @@ export interface SceneLook {
 	grain?: number;
 }
 
-/** A scene: what `define` takes, and what every `@arraypress/shaders/<name>` module exports. */
+/** A scene: what `define` takes, and what every `@logomarks/shaders/<name>` module exports. */
 export interface SceneDefinition {
 	/** Its name, kebab-case: `marble`, `ink-water`. */
 	readonly name: string;

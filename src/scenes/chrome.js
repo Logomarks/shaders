@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/chrome
+ * @module @logomarks/shaders/chrome
  *
  * Chrome liquid: metal blobs merging in a studio; the pointer is one more, and sends ripples through them.
  *

@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/uniforms
+ * @module @logomarks/shaders/runtime/uniforms
  *
  * A scene's settings as the uniforms its shader reads (`src/glsl/uniforms.js`
  * declares them), and handing them to a program.

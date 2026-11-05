@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/spheres-shader
+ * @module @logomarks/shaders/spheres-shader
  *
  * The pastel spheres' shader, shared by `spheres` and `spheres2`: matte
  * spheres floating at different depths, each placed by `seed`.

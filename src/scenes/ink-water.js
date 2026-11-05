@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/ink-water
+ * @module @logomarks/shaders/ink-water
  *
  * Ink in water: ink clouds blooming and curling through a pale tank.
  *

@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/spiral
+ * @module @logomarks/shaders/spiral
  *
  * Spiral trails: fine grooves sweeping round a slowly turning disc, light streaked along them.
  *

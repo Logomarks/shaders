@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/renderer
+ * @module @logomarks/shaders/runtime/renderer
  *
  * Renders a scene off screen at an exact size (on an OffscreenCanvas
  * where there is one), with one context and one compile for as many

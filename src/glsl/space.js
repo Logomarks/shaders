@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glsl/space
+ * @module @logomarks/shaders/glsl/space
  *
  * GLSL for where a pixel is: `rot` (a 2D rotation) and `sceneUv()` (the
  * pixel's position, centred, height 1, with the look's zoom and angle).

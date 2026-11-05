@@ -1,8 +1,8 @@
 /**
- * @module @arraypress/shaders/load
+ * @module @logomarks/shaders/load
  *
  * Loads a scene by name, each in its own chunk: a page pays only for the
- * scenes it shows. Use it with `scene` from `@arraypress/shaders/core` when
+ * scenes it shows. Use it with `scene` from `@logomarks/shaders/core` when
  * the name is only known at run time (a CMS field, a prop), instead of the
  * index, which takes in every scene.
  */

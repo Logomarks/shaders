@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders/core — the engine, without any scene's shader.
+ * @logomarks/shaders/core — the engine, without any scene's shader.
  */
 
 export type { SceneParam, Palette, SceneLook, SceneDefinition, SceneOptions, SceneSettings, SceneHandle, Renderer, SnapshotOutput } from './types.js';

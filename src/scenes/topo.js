@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/topo
+ * @module @logomarks/shaders/topo
  *
  * Topographic: contour lines of slowly shifting ground, every few an index line in the first colour.
  *

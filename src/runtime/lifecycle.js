@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/lifecycle
+ * @module @logomarks/shaders/runtime/lifecycle
  *
  * A scene's lazy WebGL context. A browser keeps about sixteen contexts and
  * drops the oldest past that, so a page of scenes must give them back: a
@@ -62,7 +62,7 @@ export function lazyContext(first, def, hooks) {
 			held = { gl, prog: compile(gl, def.fragment) };
 		} catch (error) {
 			broken = true;
-			console.warn('[@arraypress/shaders]', def.name, /** @type {Error} */ (error).message);
+			console.warn('[@logomarks/shaders]', def.name, /** @type {Error} */ (error).message);
 			loseContext(gl);
 			return false;
 		}

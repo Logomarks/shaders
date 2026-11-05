@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/options
+ * @module @logomarks/shaders/runtime/options
  *
  * A scene's options, checked and resolved into its settings. Bad options
  * throw at once: an unknown key, a colour that isn't hex, a param the
@@ -28,7 +28,7 @@ const KNOWN = new Set([...LOOK_KEYS, 'colors', 'palette', 'glint', 'fps', 'scale
  */
 export function checkDefinition(def) {
 	const d = /** @type {SceneDefinition} */ (def);
-	if (!d || typeof d !== 'object' || typeof d.fragment !== 'string' || !Array.isArray(d.params) || !d.look) throw new TypeError('Not a scene definition (import one from @arraypress/shaders/<name>, or make one with define())');
+	if (!d || typeof d !== 'object' || typeof d.fragment !== 'string' || !Array.isArray(d.params) || !d.look) throw new TypeError('Not a scene definition (import one from @logomarks/shaders/<name>, or make one with define())');
 }
 
 /**

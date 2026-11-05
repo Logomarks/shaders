@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/spheres
+ * @module @logomarks/shaders/spheres
  *
  * Pastel spheres: matte spheres floating at different depths, lit warm and cool, the far ones out of focus.
  *

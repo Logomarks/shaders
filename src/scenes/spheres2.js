@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/spheres2
+ * @module @logomarks/shaders/spheres2
  *
  * Pastel spheres, close: fewer, bigger, nearer spheres, in pinker light.
  *

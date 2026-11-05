@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glitter
+ * @module @logomarks/shaders/glitter
  *
  * Glitter galaxy: a marbled nebula with dense glitter and flaring stars, cutting between the palette's three colours like a video.
  *

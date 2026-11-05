@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders — WebGL 2 scene shaders. This entry takes in every
+ * @logomarks/shaders — WebGL 2 scene shaders. This entry takes in every
  * scene; its functions take a scene by name or by definition.
  */
 

@@ -1,4 +1,4 @@
-# @arraypress/shaders
+# @logomarks/shaders
 
 WebGL 2 scene shaders: twenty full-frame backgrounds, each one fragment shader recoloured by a palette (three colours and a glint) and shaped by a few named settings. Plain JavaScript, no dependencies, no framework. Lazy contexts, a 30 fps cap, adaptive resolution and reduced motion are built in.
 
@@ -7,13 +7,13 @@ In Astro, use `<Scene>` from [`@arraypress/effects-astro`](https://github.com/ar
 ## Install
 
 ```bash
-npm install @arraypress/shaders
+npm install @logomarks/shaders
 ```
 
 ## Usage
 
 ```js
-import { scene } from '@arraypress/shaders';
+import { scene } from '@logomarks/shaders';
 
 const h = scene(document.querySelector('canvas'), 'marble', {
   palette: { colors: ['#ff0bce', '#1bfefe', '#2d026e'], glint: '#ff00ff' },
@@ -34,9 +34,9 @@ h.stop();
 | `SCENES`, `PARAMS`, `LOOK_PARAMS` | Names, titles, descriptions and settings, for pickers and panels. |
 | `resolveSettings`, `validateOptions`, `uniformValues` | The pure steps from options to uniforms. |
 | `define`, `HEAD` | Your own scenes. |
-| `@arraypress/shaders/core` | The engine without any shader; takes definitions. |
-| `@arraypress/shaders/<name>` | One scene's definition. |
-| `@arraypress/shaders/load` | `load(name)`: one scene, as its own chunk. |
+| `@logomarks/shaders/core` | The engine without any shader; takes definitions. |
+| `@logomarks/shaders/<name>` | One scene's definition. |
+| `@logomarks/shaders/load` | `load(name)`: one scene, as its own chunk. |
 
 Options: `palette`, `colors`, `glint`, `params`, `speed`, `hue`, `sat`, `exposure`, `tint`, `tintAmount`, `zoom`, `angle`, `grain`, `fps`, `scale`, `minScale`, `lazy`, `pointer`. Each is documented in `src/types.d.ts`; bad ones throw.
 

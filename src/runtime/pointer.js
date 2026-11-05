@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/pointer
+ * @module @logomarks/shaders/runtime/pointer
  *
  * Follows the pointer for a scene, 0–1 from its canvas's bottom left: by
  * default anywhere over the canvas's area, whatever is on top of it (the

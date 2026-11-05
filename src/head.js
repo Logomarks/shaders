@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/head
+ * @module @logomarks/shaders/head
  *
  * The GLSL every scene starts with, put together from `src/glsl/`: its
  * uniforms, the palette helpers that bring any colour to the part it

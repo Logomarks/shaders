@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/look
+ * @module @logomarks/shaders/runtime/look
  *
  * The look every scene takes (colour, framing, grain and pace) and its
  * defaults, the look's settings for a settings panel, and the time a

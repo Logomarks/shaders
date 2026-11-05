@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glsl/finish
+ * @module @logomarks/shaders/glsl/finish
  *
  * GLSL for the last step of every scene, `finish(colour, fragCoord)`: the
  * look's exposure, hue, saturation and tint, a soft vignette and film

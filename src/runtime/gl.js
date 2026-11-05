@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/gl
+ * @module @logomarks/shaders/runtime/gl
  *
  * The WebGL 2 under every scene: the context it asks for, compiling a
  * scene's fragment shader over one full-screen triangle, drawing a frame,

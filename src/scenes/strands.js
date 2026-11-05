@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/strands
+ * @module @logomarks/shaders/strands
  *
  * Glass strands: ribbons of black glass, sharp highlights sliding along them and splitting into colour at the hardest glints.
  *

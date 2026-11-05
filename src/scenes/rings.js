@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/rings
+ * @module @logomarks/shaders/rings
  *
  * Glass rings: concentric glass arcs rippling outward, warm on one side and cold on the other, a glint travelling round each.
  *

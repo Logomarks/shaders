@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/color
+ * @module @logomarks/shaders/runtime/color
  *
  * Hex colours and palettes. A palette is `{ colors: [three hex], glint }`,
  * the shape of `@arraypress/effects-astro`'s `PALETTES` (Lumetri, Forest,

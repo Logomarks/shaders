@@ -1,8 +1,8 @@
 /**
- * @module @arraypress/shaders/core
+ * @module @logomarks/shaders/core
  *
  * The engine under every scene, without any scene's shader: it runs a
- * scene definition (a module from `@arraypress/shaders/<name>`, or one of
+ * scene definition (a module from `@logomarks/shaders/<name>`, or one of
  * your own made with `define`) on a canvas, renders stills off screen, and
  * turns options into the uniforms the shaders read. Each part is its own
  * module in `./runtime/`; this entry gathers them.

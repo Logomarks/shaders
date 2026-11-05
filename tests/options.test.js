@@ -1,5 +1,5 @@
 /**
- * @arraypress/shaders — options: how palettes, colours, the look and a
+ * @logomarks/shaders — options: how palettes, colours, the look and a
  * scene's params resolve into settings and uniforms, what is refused, and
  * the still fallback.
  */

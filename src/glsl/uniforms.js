@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/glsl/uniforms
+ * @module @logomarks/shaders/glsl/uniforms
  *
  * The first lines of every scene's fragment shader: the GLSL version, the
  * precision, and the uniforms the runner sets (the buffer's size, the

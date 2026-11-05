@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/runtime/device
+ * @module @logomarks/shaders/runtime/device
  *
  * What the device and the visitor ask for: a weak device starts at a
  * lower resolution, reduced motion gets one still frame, and a hidden tab

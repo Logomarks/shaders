@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/tiles
+ * @module @logomarks/shaders/tiles
  *
  * Glossy tiles: ray-marched rounded tiles of glossy metal: lit bevels, black gaps, softboxes drifting over them.
  *

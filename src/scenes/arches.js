@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/arches
+ * @module @logomarks/shaders/arches
  *
  * Arches: nested rounded arches stepping out from a corner, each lit at its rim; the steps breathe.
  *

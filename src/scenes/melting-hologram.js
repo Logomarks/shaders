@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/melting-hologram
+ * @module @logomarks/shaders/melting-hologram
  *
  * Melting hologram: an iridescent liquid flowing and folding over black, thin-film colour sliding across its melted folds, with now and then a glassy bubble drifting by.
  *

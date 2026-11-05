@@ -1,5 +1,5 @@
 /**
- * @module @arraypress/shaders/ribs
+ * @module @logomarks/shaders/ribs
  *
  * Ribbed light: fine stripes of light through ribbed glass, bent by big slow folds and lit in patches.
  *
