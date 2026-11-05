@@ -71,6 +71,6 @@ Each scene's colours and settings are described at the top of `src/scenes/<name>
 
 - [Changelog](CHANGELOG.md)
 - [`@arraypress/effects-astro`](https://github.com/arraypress/effects-astro), with the `PALETTES` any scene takes
-- [Issues](https://github.com/arraypress/shaders/issues)
+- [Issues](https://github.com/Logomarks/shaders/issues)
 
 MIT
